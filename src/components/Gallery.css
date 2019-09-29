@@ -1,0 +1,10 @@
+.gallery-container {
+  width: 99%;
+  margin-top: 10rem;
+}
+
+.gallery-image {
+  height: 100%;
+  width: 10rem;
+  cursor: grab;
+}

@@ -1,0 +1,32 @@
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  color: #ababab;
+}
+
+.header-bar-list {
+
+}
+
+.header-bar-list-item {
+  list-style: none;
+}
+
+.header-bar-list-item:last-of-type {
+ padding-right: 1rem;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  height: 2rem;
+  width: 2rem;
+}
