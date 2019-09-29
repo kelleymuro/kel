@@ -14,7 +14,7 @@ class Header extends Component {
   }
 
   componentDidMount() {
-    axios.get('http://api.openweathermap.org/data/2.5/weather?id=5317058', {
+    axios.get('https://api.openweathermap.org/data/2.5/weather?id=5317058', {
       params: {
         units: 'imperial',
         APPID: 'dd7be2bbca968cd1f68c6e5500bdda0d'
