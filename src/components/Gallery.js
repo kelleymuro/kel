@@ -45,10 +45,10 @@ class Gallery extends Component {
     return (
       <div className="gallery-container">
         <Slider {...settings}>
-          <img  src={Haircation} alt="" className="gallery-image"/>
-          <img src={Malibu} alt="" className="gallery-image"/>
-          <img src={Forward} alt="" className="gallery-image"/>
-          <img src={Clean} alt="" className="gallery-image"/>
+          <img src={Haircation} alt="Haircation.com" className="gallery-image"/>
+          <img src={Malibu} alt="Malibu Video Editing App" className="gallery-image"/>
+          <img src={Forward} alt="Forward Software" className="gallery-image"/>
+          <img src={Clean} alt="Cleaning Company" className="gallery-image"/>
         </Slider>
       </div>
     )

@@ -32,9 +32,6 @@ class Header extends Component {
 render() {
     return (
       <nav className="header-bar">
-        <ul className="header-bar-list">
-          <li className="header-bar-list-item">Contact</li>
-        </ul>
         <div className="weather">
           <p className="header-bar-list-item">{this.state.name}, {Math.floor(this.state.weather)}&deg; </p>
           <img src={Sun} alt="Icon of a sun" className="header-bar-list-item image"/>
