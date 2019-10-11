@@ -22,6 +22,7 @@ class Header extends Component {
     })
     .then(response => {
       this.setState({ weather: response.data.main.temp, name: response.data.name});
+      
     })
     .catch(error => {
       console.log(error)

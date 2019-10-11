@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
 import './Gallery.css';
+import Haircation from '../assets/haircation.jpg';
+import Malibu from '../assets/malibu.jpg';
+import Forward from '../assets/Forward.jpg';
+import Clean from '../assets/clean.jpg';
 
 class Gallery extends Component {
   render() {
@@ -41,12 +45,10 @@ class Gallery extends Component {
     return (
       <div className="gallery-container">
         <Slider {...settings}>
-          <img src="https://www.davidbaker.tv/assets/images/yeezy-700inertia.jpg" alt="" className="gallery-image"/>
-          <img src="https://www.davidbaker.tv/assets/images/yeezy-700inertia.jpg" alt="" className="gallery-image"/>
-          <img src="https://www.davidbaker.tv/assets/images/yeezy-700inertia.jpg" alt="" className="gallery-image"/>
-          <img src="https://www.davidbaker.tv/assets/images/yeezy-700inertia.jpg" alt="" className="gallery-image"/>
-          <img src="https://www.davidbaker.tv/assets/images/yeezy-700inertia.jpg" alt="" className="gallery-image"/>
-          <img src="https://www.davidbaker.tv/assets/images/yeezy-700inertia.jpg" alt="" className="gallery-image"/>
+          <img  src={Haircation} alt="" className="gallery-image"/>
+          <img src={Malibu} alt="" className="gallery-image"/>
+          <img src={Forward} alt="" className="gallery-image"/>
+          <img src={Clean} alt="" className="gallery-image"/>
         </Slider>
       </div>
     )
