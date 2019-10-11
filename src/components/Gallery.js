@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
 import './Gallery.css';
-import Haircation from '../assets/haircation.jpg';
-import Malibu from '../assets/malibu.jpg';
-import Forward from '../assets/Forward.jpg';
-import Clean from '../assets/clean.jpg';
+import Haircation from '../assets/haircation.png';
+import Malibu from '../assets/Malibu.png';
+import Forward from '../assets/Forward.png';
+import Clean from '../assets/Clean.png';
 
 class Gallery extends Component {
   render() {

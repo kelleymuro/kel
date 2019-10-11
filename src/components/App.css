@@ -1,0 +1,24 @@
+.light-mode {
+  background-color: #fff; 
+  color: #ababab;
+  transition: background-color .25s ease-in-out;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  transition: background-color .25s ease-in-out;
+}
+
+.toggleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.setMode {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: transparent;
+}
